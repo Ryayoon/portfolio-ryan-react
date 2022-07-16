@@ -14,23 +14,40 @@ const Home = () => {
                 </p>
             </div>
             <div className="text-two">
-                <h2>Certification & Awards</h2>
+                <h2>Certifications & Awards</h2>
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h3 className="cert-awards">AWS Cloud Practitioner - Certificate</h3>
+                <h4 className="cert-awards">AWS Cloud Practitioner - Certificate</h4>
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h3 className="cert-awards">Best Technical Implementation @ Devs Hackathon - Award</h3>
+                <h4 className="cert-awards">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4>
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h3 className="cert-awards">Certificate of Outstanding Achievement (COMPSCI 101) - Award</h3>
+                <h4 className="cert-awards">Best Technical Implementation @ Devs Hackathon - Award</h4>
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h3 className="cert-awards">NCEA Level 1 & 2 & 3 Excellence - Certificate</h3>
+                <h4 className="cert-awards">Certificate of Outstanding Achievement (COMPSCI 101) - Award</h4>
+                <br/>
+                <hr className="indicate"/>
+                <br/>
+                <h4 className="cert-awards">Prize for NCEA Level 1 Mathematics - Award</h4>
+                <br/>
+                <hr className="indicate"/>
+            </div>
+            <div className="text-three">
+                <h2>Projects</h2>
+                <br/>
+                <hr className="indicate"/>
+                <br/>
+                <h4 className="cert-awards">Hack to Happiness Project (News App)</h4>
+                <br/>
+                <hr className="indicate"/>
+                <br/>
+                <h4 className="cert-awards">Visual Cryptography (MATLAB)</h4>
                 <br/>
                 <hr className="indicate"/>
             </div>

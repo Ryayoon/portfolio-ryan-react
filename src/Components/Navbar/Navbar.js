@@ -7,8 +7,10 @@ const Navbar = () => {
                 fontSize: '3vh'
             }}>My Portfolio</h1>
             <div className="links">
-                <a href="/Home">Home</a>
-                <a href="/Users/GGPC/OneDrive/Desktop/portfolio-ryan-react/public">About myself</a>
+                <ul>
+                    <a href="/">Home</a>
+                    <a href="./About">About Myself</a>
+                </ul>
             </div>
         </nav>
      );

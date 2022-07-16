@@ -13,5 +13,13 @@
 }
 
 .text-two {
-    padding-top: 7vh;
+    padding-top: 6vh;
+}
+
+.text-three {
+    padding-top: 3vh;
+}
+
+.indicate {
+    opacity: 0.4;
 }
