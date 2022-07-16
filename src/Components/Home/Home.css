@@ -1,12 +1,17 @@
-.home {
+.text-one {
     background-color: #EEEEEE;
     border-radius: 10px;
-    margin-right: 210px;
-    padding: 1vh 1vh 1vh 2.5vh;
+    margin-right: 230px;
+    padding: 1vh 1vh 1vh 2vh;
+    box-shadow: 1px 1px #888888;
 }
 
 .self-emoji {
     width: 25vh;
     margin-left: 65%;
-    margin-bottom: -30%;
+    margin-bottom: -35%;
+}
+
+.text-two {
+    padding-top: 7vh;
 }
