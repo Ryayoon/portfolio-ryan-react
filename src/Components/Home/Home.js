@@ -1,8 +1,10 @@
 import './Home.css';
-//import myEmoji from './images/Emoji.png';
+import emoji from '../../assets/images/Emoji.png';
 const Home = () => {
 
-    return ( 
+    return (
+        <>
+            <img className='self-emoji' src={emoji} alt="my-emoji"/>
         <div className="home">
             <div className="text">
                 <h2>Hey there, I'm Ryan.</h2>
@@ -13,6 +15,7 @@ const Home = () => {
                 </p>
             </div>
         </div>
+        </>
      );
 }
  

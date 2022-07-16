@@ -8,7 +8,7 @@ const Navbar = () => {
             }}>My Portfolio</h1>
             <div className="links">
                 <a href="/Home">Home</a>
-                <a href="/">About myself</a>
+                <a href="/Users/GGPC/OneDrive/Desktop/portfolio-ryan-react/public">About myself</a>
             </div>
         </nav>
      );

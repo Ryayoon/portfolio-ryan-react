@@ -1,0 +1,12 @@
+.home {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    margin-right: 210px;
+    padding: 1vh 1vh 1vh 2.5vh;
+}
+
+.self-emoji {
+    width: 25vh;
+    margin-left: 65%;
+    margin-bottom: -30%;
+}
