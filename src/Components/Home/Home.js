@@ -6,7 +6,7 @@ const Home = () => {
         <div className="home">
             <img className='self-emoji' src={emoji} alt="my-emoji"/>
             <div className="text-one">
-                <h2>Hey there, I'm Ryan.</h2>
+                <h2>Hey there, I'm Sukju.</h2>
                 <p>I am currently a Part II Computer Systems Engineering Student @ 
                     The University of Auckland looking for potential Internship 
                     opportunities to gain practical experiences in the industry in a professional 
@@ -23,6 +23,14 @@ const Home = () => {
                 <hr className="indicate"/>
                 <br/>
                 <h3 className="cert-awards">Best Technical Implementation @ Devs Hackathon - Award</h3>
+                <br/>
+                <hr className="indicate"/>
+                <br/>
+                <h3 className="cert-awards">Certificate of Outstanding Achievement (COMPSCI 101) - Award</h3>
+                <br/>
+                <hr className="indicate"/>
+                <br/>
+                <h3 className="cert-awards">NCEA Level 1 & 2 & 3 Excellence - Certificate</h3>
                 <br/>
                 <hr className="indicate"/>
             </div>
