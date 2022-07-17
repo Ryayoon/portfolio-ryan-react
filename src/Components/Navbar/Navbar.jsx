@@ -1,5 +1,6 @@
 import './Navbar.css';
 import React, {useState} from "react";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
     const [active, setActive] = useState("nav-menu");
@@ -21,22 +22,22 @@ function Navbar() {
 
     return (
         <nav className="nav">
-            <a href="/" className="title">My Portfolio</a>
+            <NavLink to="/portfolio-ryan-react/" className="title">My Portfolio</NavLink>
             <ul className={active}>
                 <li className="nav-items">
-                    <a className="nav-link" href="/">
+                    <NavLink className="nav-link" to="/portfolio-ryan-react/">
                         Home
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="nav-items">
-                    <a className="nav-link" href="/About">
+                    <NavLink className="nav-link" to="/portfolio-ryan-react/About">
                         About Myself
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="nav-items">
-                    <a className="nav-link" href="./Contact">
+                    <NavLink className="nav-link" to="/portfolio-ryan-react/Contact">
                         Contact
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
             <div onClick={navToggle} className={toggleIcon}>

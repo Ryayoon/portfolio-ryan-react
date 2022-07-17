@@ -10,17 +10,17 @@ import Contact from "./Components/Contact/Contact";
 function App() {
     return (
         <div className="App">
-            <Navbar />
-            <div className="content">
-                <Router>
+            <Router>
+                <Navbar/>
+                <div className="content">
                     <Routes>
-                        <Route path='/' element={<Home/>}/>
-                        <Route path='/About' element={<About/>}/>
-                        <Route path='/Contact' element={<Contact/>}/>
+                        <Route path='/portfolio-ryan-react/' element={<Home/>}/>
+                        <Route path='/portfolio-ryan-react/About' element={<About/>}/>
+                        <Route path='/portfolio-ryan-react/Contact' element={<Contact/>}/>
                     </Routes>
-                </Router>
-            </div>
-            <BottomNavbar />
+                </div>
+                <BottomNavbar/>
+            </Router>
         </div>
     );
 }

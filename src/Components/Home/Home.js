@@ -1,8 +1,11 @@
 import './Home.css';
 import emoji from '../../assets/images/Emoji.png';
+import Loader from 'react-loaders';
+
 const Home = () => {
 
     return (
+        <>
         <div className="home">
             <img className='text-zero self-emoji' src={emoji} alt="my-emoji"/>
             <div className="text-one">
@@ -52,7 +55,8 @@ const Home = () => {
                 <hr className="indicate"/>
             </div>
         </div>
-
+    <Loader type="ball-spin-fade-loader" />
+    </>
      );
 }
  
