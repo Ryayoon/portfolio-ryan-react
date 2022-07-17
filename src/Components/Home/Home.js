@@ -4,7 +4,7 @@ const Home = () => {
 
     return (
         <div className="home">
-            <img className='self-emoji' src={emoji} alt="my-emoji"/>
+            <img className='text-zero self-emoji' src={emoji} alt="my-emoji"/>
             <div className="text-one">
                 <h2>Hey there, I'm Sukju.</h2>
                 <p>I am currently a Part II Computer Systems Engineering Student @ 
@@ -52,6 +52,7 @@ const Home = () => {
                 <hr className="indicate"/>
             </div>
         </div>
+
      );
 }
  

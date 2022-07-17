@@ -1,0 +1,101 @@
+.title {
+    font-size: 3vh;
+    color: #222831;
+}
+
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #222831;
+}
+
+.nav a:hover {
+    color: #939393;
+}
+
+.nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 5vh;
+    max-width: 730px;
+    margin: 0 auto;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.nav-toggle div{
+    width: 2.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: #222831;
+    transition: 0.4s ease-in;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    display: none;
+}
+
+.nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-toggle {
+        display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 9vh;
+        right: 0;
+        width: 35%;
+        height: 90vh;
+        background: #EEEEEE;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        border-radius: 10px;
+    }
+}
+
+/* Nav Active Class */
+.nav-active {
+    transform: translateX(0);
+}
+
+/* Toggle Icon Animation */
+.toggle .first{
+    transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .second{
+    opacity: 0;
+}
+.toggle .third{
+    transform: rotate(45deg) translate(-4px, -5px);
+}
