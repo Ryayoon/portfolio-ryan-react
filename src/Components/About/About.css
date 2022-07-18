@@ -2,13 +2,18 @@
     margin-left: 80%;
 }
 
-
-.text-2 {
-    margin-right: 210px;
+.aws-logo {
+    margin-left: 43vh;
+    font-size: 6.5vh;
+    margin-top: -8vh;
 }
 
 .text-3 {
-    padding-top: 6vh;
+    padding-top: 2vh;
+}
+
+.text-2 {
+    margin-right: 210px;
 }
 
 .text-4 {

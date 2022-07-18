@@ -1,5 +1,5 @@
 import './About.css';
-import {faCss3, faHtml5, faJava, faJsSquare, faPython, faReact} from "@fortawesome/free-brands-svg-icons";
+import {faCss3, faHtml5, faJava, faJsSquare, faPython, faReact, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const About = () => {
@@ -34,6 +34,7 @@ const About = () => {
                     in the past. Through high-school projects and University courses I had also learned how to code
                     some Python, C, Java(Object Oriented Programming) and MATLAB.</p>
             </div>
+            <FontAwesomeIcon className="aws-logo" icon={faAws} color="#ec912d" />
             <div className="text-3">
                 <h2 className="job-title">Work Experience</h2>
                 <br/>
