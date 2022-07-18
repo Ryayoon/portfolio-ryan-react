@@ -46,7 +46,7 @@ const Home = () => {
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h4 className="cert-awards">Hack to Happiness Project (News App)</h4>
+                <h4 className="cert-awards">Hack for Happiness Project (News App)</h4>
                 <br/>
                 <hr className="indicate"/>
                 <br/>
