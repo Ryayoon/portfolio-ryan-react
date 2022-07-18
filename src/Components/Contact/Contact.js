@@ -9,17 +9,15 @@ const Contact = () => {
         e.preventDefault();
 
         emailJs.sendForm('service_2erutw5', 'template_8dmj6hg', form.current, 'uyNjIVn7vSSE7gtjB')
-            .then((result) => {
-                console.log(result.text);
-                console.log("Message Sent")
-            }, (error) => {
-                console.log(error.text);
-
+            .then(function(response) {
+                alert('Successfully Sent!');
+            }, function(error) {
+                alert('Failed to send, Please Try Again!');
             });
     };
     return (
         <div className="contact">
-            <h2>Contact Details</h2>
+            <h2>Contact</h2>
             <div className="submitting">
                 <form ref={form} onSubmit={sendEmail}>
                     <ul>
