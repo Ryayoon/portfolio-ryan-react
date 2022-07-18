@@ -1,0 +1,63 @@
+.detail-input {
+    border-radius: 8px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    clear: both;
+    width: 49%;
+    margin: 0 0 10px 2%;
+    float: left;
+    clear: none;
+}
+
+::placeholder{
+    color: #222831;
+    font-family: "Quicksand";
+}
+
+input[type="text"] ,
+input[type="email"]{
+    width: 100%;
+    border: 0;
+    background: #eeeeee;
+    height: 50px;
+    font-size: 16px;
+    color: #222831;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+textarea[type='message'] {
+    width: 100%;
+    border: 0;
+    background: #eeeeee;
+    height: 120px;
+    font-size: 16px;
+    color: #222831;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.submitting {
+    padding-top: 2vh;
+    margin-left: -60px;
+}
+
+.flat-button {
+    color: #ffffff;
+    background: #222831;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.25s;
+    border-width: 0;
+}
+
+.flat-button:hover {
+    background: #eeeeee;
+    color: #222831;
+    cursor: pointer;
+}

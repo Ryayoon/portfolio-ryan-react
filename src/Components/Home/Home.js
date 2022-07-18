@@ -1,6 +1,5 @@
 import './Home.css';
 import emoji from '../../assets/images/Emoji.png';
-import Loader from 'react-loaders';
 
 const Home = () => {
 
