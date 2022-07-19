@@ -1,6 +1,7 @@
 import './Contact.css';
 import React, { useRef } from 'react';
 import emailJs from '@emailjs/browser';
+import awsBadge from '../../assets/images/aws-ccp-logo.png';
 
 const Contact = () => {
     const form = useRef();
@@ -38,6 +39,18 @@ const Contact = () => {
                         </li>
                     </ul>
                 </form>
+            </div>
+            <div className="vertical-line">
+            </div>
+            <div className="further-details">
+                <h3>Personal Details:</h3>
+                <br/>
+                <h5>Ryayoon7gzf@gmail.com</h5>
+                <br/>
+                <h5>+64 22 062 4057</h5>
+                <br/>
+                <h5>Auckland, New Zealand</h5>
+                <img className="badge" src={awsBadge} alt="AWS-badge"/>
             </div>
         </div>
     );

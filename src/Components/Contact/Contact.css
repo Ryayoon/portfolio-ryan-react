@@ -61,3 +61,23 @@ textarea[type='message'] {
     color: #222831;
     cursor: pointer;
 }
+
+.vertical-line {
+    border-left: 3px solid #eeeeee;
+    height: 450px;
+    opacity: 0.6;
+    margin-left: 53%;
+    margin-top: -4vh;
+}
+
+.further-details {
+    margin-left: 69%;
+    margin-top: -32vh;
+    padding-bottom: 8vh;
+}
+
+.badge {
+    width: 100%;
+    margin-left: -5%;
+    margin-top: 25%;
+}
