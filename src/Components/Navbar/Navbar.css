@@ -70,13 +70,19 @@ a {
         position: fixed;
         top: 9vh;
         right: 0;
-        width: 35%;
-        height: 90vh;
+        width: 30%;
+        height: 50vh;
         background: #EEEEEE;
         flex-direction: column;
         transform: translateX(100%);
         transition: 0.5s ease-in;
-        border-radius: 10px;
+        border-radius: 11px;
+        z-index: 20;
+        opacity: 0.9;
+    }
+    .nav-link {
+        font-size: 18px;
+        margin-right: 50px;
     }
 }
 
@@ -101,6 +107,7 @@ a {
     display: inline-block;
     padding: 15px 20px;
     position: relative;
+    transition: transform .5s;
 }
 .nav a:after {
     background: none repeat scroll 0 0 transparent;
@@ -114,6 +121,13 @@ a {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
+
+.nav a:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);
+}
+
 .nav a:hover:after {
     width: 100%;
     left: 0;
