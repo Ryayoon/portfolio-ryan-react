@@ -16,7 +16,8 @@ const About = () => {
                         basic frontend web development (using HTML, CSS, a bit of React and javascript)
                         in the past. Through high-school projects and University courses I had also learned how to
                         code
-                        some Python, C, Java(Object Oriented Programming) and MATLAB.</p>
+                        some Python, C language , Java(Object Oriented Programming) and MATLAB.
+                    </p>
                 </div>
                 <div className="flex flex-col justify-between -mb-[170px] md:mb-0 -mr-[150px] md:mr-0 -z-[1]">
 
