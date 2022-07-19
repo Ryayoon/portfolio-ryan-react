@@ -22,7 +22,7 @@ function Navbar() {
 
     return (
         <nav className="nav">
-            <NavLink to="/portfolio-ryan-react/" className="title">My Portfolio</NavLink>
+            <h1 className="title">Sukju Yoon</h1>
             <ul className={active}>
                 <li className="nav-items">
                     <NavLink className="nav-link" to="/portfolio-ryan-react/">

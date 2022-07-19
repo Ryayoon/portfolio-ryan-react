@@ -7,7 +7,7 @@ const Home = () => {
             <div className="home">
                 <div className="flex justify-between content-center items-center flex-col-reverse md:flex-row">
                     <div className="text-one max-w-[300px]">
-                        <h2>Hey there, I'm Sukju.</h2>
+                        <h2>Hey there, I'm Ryan.</h2>
                         <p>I am currently a Part II Computer Systems Engineering Student @
                             The University of Auckland looking for potential Internship
                             opportunities to gain practical experiences in the industry in a professional
