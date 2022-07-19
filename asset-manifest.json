@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-ryan-react/static/css/main.57152330.css",
+    "main.css": "/portfolio-ryan-react/static/css/main.925de0a7.css",
     "main.js": "/portfolio-ryan-react/static/js/main.3ab06952.js",
     "static/media/Emoji.png": "/portfolio-ryan-react/static/media/Emoji.2c3f8c5977fe7ecd6c5d.png",
     "static/media/aws-ccp-logo.png": "/portfolio-ryan-react/static/media/aws-ccp-logo.408f180637ecce2fc979.png",
     "index.html": "/portfolio-ryan-react/index.html",
-    "main.57152330.css.map": "/portfolio-ryan-react/static/css/main.57152330.css.map",
+    "main.925de0a7.css.map": "/portfolio-ryan-react/static/css/main.925de0a7.css.map",
     "main.3ab06952.js.map": "/portfolio-ryan-react/static/js/main.3ab06952.js.map"
   },
   "entrypoints": [
-    "static/css/main.57152330.css",
+    "static/css/main.925de0a7.css",
     "static/js/main.3ab06952.js"
   ]
 }
