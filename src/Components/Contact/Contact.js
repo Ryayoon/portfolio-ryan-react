@@ -42,7 +42,7 @@ const Contact = () => {
             </div>
             <div className="vertical-line">
             </div>
-            <div className="further-details">
+            <div className="further-details mt-[-54vh] md:mb-[8vh] md:mt-[-32vh]">
                 <h3>Personal Details:</h3>
                 <br/>
                 <h5>Ryayoon7gzf@gmail.com</h5>
