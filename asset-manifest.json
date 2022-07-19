@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-ryan-react/static/css/main.cc5ff236.css",
-    "main.js": "/portfolio-ryan-react/static/js/main.5986830d.js",
+    "main.css": "/portfolio-ryan-react/static/css/main.812ba27e.css",
+    "main.js": "/portfolio-ryan-react/static/js/main.f3ae258b.js",
     "static/media/Emoji.png": "/portfolio-ryan-react/static/media/Emoji.fce65b30a35f3fc8193d.png",
     "static/media/aws-ccp-logo.png": "/portfolio-ryan-react/static/media/aws-ccp-logo.408f180637ecce2fc979.png",
     "index.html": "/portfolio-ryan-react/index.html",
-    "main.cc5ff236.css.map": "/portfolio-ryan-react/static/css/main.cc5ff236.css.map",
-    "main.5986830d.js.map": "/portfolio-ryan-react/static/js/main.5986830d.js.map"
+    "main.812ba27e.css.map": "/portfolio-ryan-react/static/css/main.812ba27e.css.map",
+    "main.f3ae258b.js.map": "/portfolio-ryan-react/static/js/main.f3ae258b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc5ff236.css",
-    "static/js/main.5986830d.js"
+    "static/css/main.812ba27e.css",
+    "static/js/main.f3ae258b.js"
   ]
 }
