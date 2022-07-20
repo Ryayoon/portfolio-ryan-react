@@ -47,11 +47,11 @@ const Home = () => {
                     <br/>
                     <hr className="indicate"/>
                     <br/>
-                    <h4 className="cert-awards">Hack for Happiness Project (News App)</h4>
+                    <h4 className="projects">Hack for Happiness Project (News App)</h4>
                     <br/>
                     <hr className="indicate"/>
                     <br/>
-                    <h4 className="cert-awards">Visual Cryptography (MATLAB)</h4>
+                    <h4 className="projects">Visual Cryptography (MATLAB)</h4>
                     <br/>
                     <hr className="indicate"/>
                 </div>

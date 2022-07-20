@@ -48,15 +48,15 @@ const Contact = () => {
                     <div className="vertical-line"/>
                 </div>
 
-                <div className="flex-initial mt-[5%] ml-[15%]">
+                <div className="flex-initial mt-[1%] ml-[4%]">
                     <div className="further-details">
-                        <h3>Personal Details:</h3>
+                        <h2>Personal Details:</h2>
                         <br/>
-                        <h6>Ryayoon7gzf@gmail.com</h6>
+                        <h5>Ryayoon7gzf@gmail.com</h5>
                         <br/>
-                        <h6>+64 22 062 4057</h6>
+                        <h5>+64 22 062 4057</h5>
                         <br/>
-                        <h6>Auckland, New Zealand</h6>
+                        <h5>Auckland, New Zealand</h5>
                         <img className="badge" src={awsBadge} alt="AWS-badge"/>
                     </div>
 

@@ -122,12 +122,6 @@ a {
     width: 0;
 }
 
-.nav a:hover {
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-}
-
 .nav a:hover:after {
     width: 100%;
     left: 0;

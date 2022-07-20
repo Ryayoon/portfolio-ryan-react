@@ -8,20 +8,17 @@ const About = () => {
             <div className="flex justify-between content-evenly items-center md:items-stretch flex-col-reverse md:flex-row">
 
                 <div className="text-2">
-                    <h2 className="self-title">About Myself</h2>
+                    <h1 className="self-title">About Myself</h1>
                     <br/>
-                    <p className="paragraph-1 max-w-[300px] mt-[20px]">Currently, as a Certified AWS Cloud Practitioner I am studying
-                        towards the Solutions Architect role. In terms of programming experiences I had implemented
-                        some
-                        basic frontend web development (using HTML, CSS, a bit of React and javascript)
-                        in the past. Through high-school projects and University courses I had also learned how to
-                        code
-                        some Python, C , Java(Object Oriented Programming) and MATLAB.
+                    <p className="paragraph-1 max-w-[300px] mt-[20px]">Currently, I am a Certified AWS Cloud Practitioner.
+                        In terms of programming experience I have used HTML, CSS, React with javascript
+                        in the past for some web-development. Through high-school and University courses I had also learned how to
+                        code some Python, C , Java(Object Oriented Programming) and MATLAB.
                     </p>
                 </div>
                 <div className="flex flex-col justify-between -mb-[170px] md:mb-0 -mr-[150px] md:mr-0 -z-[1]">
 
-                    <div className="w-[150px] h-[180px]">
+                    <div className="w-[150px] h-[200px]">
                         <div className="cube-spinner">
                             <div className="face1">
                                 <FontAwesomeIcon icon={faPython} color="#050e0b"/>
@@ -71,6 +68,10 @@ const About = () => {
                 <br/>
                 <hr className="indicate"/>
                 <br/>
+                <h4 className="cert-awards">PASS Mentor (The University of Auckland)</h4>
+                <br/>
+                <hr className="indicate"/>
+                <br />
                 <h4 className="cert-awards">DEVS member (Developers Society)</h4>
                 <br/>
                 <hr className="indicate"/>
@@ -87,7 +88,7 @@ const About = () => {
                 <br/>
                 <hr className="indicate"/>
                 <br/>
-                <h4 className="cert-awards">KUMGANG Taekwondo (WTF)</h4>
+                <h4 className="cert-awards">Peer Support Leader (Pakuranga College)</h4>
                 <br/>
                 <hr className="indicate"/>
             </div>
