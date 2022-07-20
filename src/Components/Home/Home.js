@@ -46,7 +46,10 @@ const Home = () => {
                             <button className="projects"><h4>Hack for Happiness Project (News App)</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Visual Cryptography (MATLAB)</h4></button>
+                            <button className="projects"><h4>Electric Motor Generation (ENGGEN 299)</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4>Visual Cryptography Project (MATLAB)</h4></button>
                         </li>
                     </ul>
                 </div>
