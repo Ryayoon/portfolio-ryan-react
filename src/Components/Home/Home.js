@@ -18,42 +18,37 @@ const Home = () => {
 
                 </div>
                 <div className="text-two">
-                    <h2>Certifications & Awards</h2>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="cert-awards">AWS Cloud Practitioner - Certificate</h4>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="cert-awards">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="cert-awards">Best Technical Implementation @ Devs Hackathon - Award</h4>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="cert-awards">Certificate of Outstanding Achievement (COMPSCI 101) - Award</h4>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="cert-awards">Prize for NCEA Level 1 Mathematics - Award</h4>
-                    <br/>
-                    <hr className="indicate"/>
+                    <ul className="col">
+                        <h2 className="titling">Certifications & Awards</h2>
+                        <br/>
+                        <li>
+                            <button className="projects"><h4>AWS Cloud Practitioner - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4>NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4>Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4>Best Technical Implementation @ Devs Hackathon - Award</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4>Prize for NCEA Level 1 Mathematics - Award</h4></button>
+                        </li>
+                    </ul>
                 </div>
                 <div className="text-three">
-                    <h2>Projects</h2>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="projects">Hack for Happiness Project (News App)</h4>
-                    <br/>
-                    <hr className="indicate"/>
-                    <br/>
-                    <h4 className="projects">Visual Cryptography (MATLAB)</h4>
-                    <br/>
-                    <hr className="indicate"/>
+                    <ul className="col">
+                        <h2 className="titling">Projects</h2>
+                        <br/>
+                        <li>
+                            <button className="projects"><h4 className="projects-text">Hack for Happiness Project (News App)</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4 className="projects-text">Visual Cryptography (MATLAB)</h4></button>
+                        </li>
+                    </ul>
                 </div>
             </div>
     );
