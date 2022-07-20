@@ -10,7 +10,7 @@ const About = () => {
                 <div className="text-2">
                     <h2 className="self-title">About Myself</h2>
                     <br/>
-                    <p className="paragraph-1 max-w-[300px]">Currently, as a Certified AWS Cloud Practitioner I am studying
+                    <p className="paragraph-1 max-w-[300px] mt-[20px]">Currently, as a Certified AWS Cloud Practitioner I am studying
                         towards the Solutions Architect role. In terms of programming experiences I had implemented
                         some
                         basic frontend web development (using HTML, CSS, a bit of React and javascript)
@@ -21,7 +21,7 @@ const About = () => {
                 </div>
                 <div className="flex flex-col justify-between -mb-[170px] md:mb-0 -mr-[150px] md:mr-0 -z-[1]">
 
-                    <div className="w-[150px] h-[150px]">
+                    <div className="w-[150px] h-[180px]">
                         <div className="cube-spinner">
                             <div className="face1">
                                 <FontAwesomeIcon icon={faPython} color="#050e0b"/>
