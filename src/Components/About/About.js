@@ -10,7 +10,7 @@ const About = () => {
                 <div className="text-2">
                     <h1 className="self-title">About Myself</h1>
                     <br/>
-                    <p className="paragraph-1 max-w-[300px] mt-[20px]">Currently, I am a Certified AWS Cloud Practitioner.
+                    <p className="paragraph-1 max-w-[300px] mt-[15px]">Currently, I am a Certified AWS Cloud Practitioner.
                         In terms of programming experience I have used HTML, CSS, React with javascript
                         in the past for some web-development. Through high-school and University courses I had also learned how to
                         code some Python, C , Java(Object Oriented Programming) and MATLAB.
@@ -47,50 +47,44 @@ const About = () => {
             </div>
 
             <div className="text-3">
-                <h2 className="job-title">Work Experience</h2>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">Samsung Sales Representative - Millennium Retail</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">Field Merchandiser - DKSH</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">Mathematics Tutor - MyTuition</h4>
-                <br/>
-                <hr className="indicate"/>
+                <ul className="colum-1 mr-[10.5%]">
+                    <h2 className="titling">Work Experience</h2>
+                    <br/>
+                    <li>
+                        <button className="projects"><h4>Samsung Sales Representative - Millennium Retail</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>Field Merchandiser - DKSH</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>Mathematics Tutor - MyTuition</h4></button>
+                    </li>
+                </ul>
             </div>
+
             <div className="text-4">
-                <h2 className="affiliations-title">Affiliations</h2>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">PASS Mentor (The University of Auckland)</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br />
-                <h4 className="cert-awards">DEVS member (Developers Society)</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">WDCC member (Web Development & Consulting Club)</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">GDSC member (Google Developer Student Club)</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">The University of Auckland Badminton Club</h4>
-                <br/>
-                <hr className="indicate"/>
-                <br/>
-                <h4 className="cert-awards">Peer Support Leader (Pakuranga College)</h4>
-                <br/>
-                <hr className="indicate"/>
+                <ul className="colum-2 mr-[10.5%]">
+                    <h2 className="titling">Affiliations</h2>
+                    <br/>
+                    <li>
+                        <button className="projects"><h4>PASS Mentor (The University of Auckland)</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>DEVS member (Developers Society)</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>WDCC member (Web Development & Consulting Club)</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>GDSC member (Google Developer Student Club)</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>Badminton Club (The University of Auckland)</h4></button>
+                    </li>
+                    <li>
+                        <button className="projects"><h4>Peer Support Leader (Pakuranga College)</h4></button>
+                    </li>
+                </ul>
             </div>
         </div>
 

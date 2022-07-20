@@ -18,7 +18,7 @@ const Home = () => {
 
                 </div>
                 <div className="text-two">
-                    <ul className="col">
+                    <ul className="col-1 mr-[10.5%]">
                         <h2 className="titling">Certifications & Awards</h2>
                         <br/>
                         <li>
@@ -39,14 +39,14 @@ const Home = () => {
                     </ul>
                 </div>
                 <div className="text-three">
-                    <ul className="col">
+                    <ul className="col-2 mr-[10.5%]">
                         <h2 className="titling">Projects</h2>
                         <br/>
                         <li>
-                            <button className="projects"><h4 className="projects-text">Hack for Happiness Project (News App)</h4></button>
+                            <button className="projects"><h4>Hack for Happiness Project (News App)</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="projects-text">Visual Cryptography (MATLAB)</h4></button>
+                            <button className="projects"><h4>Visual Cryptography (MATLAB)</h4></button>
                         </li>
                     </ul>
                 </div>

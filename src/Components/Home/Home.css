@@ -21,10 +21,6 @@
     padding-top: 3vh;
 }
 
-.indicate {
-    opacity: 0.4;
-}
-
 .projects {
     background-color: white;
     border: none;
@@ -39,10 +35,6 @@
     border-top-style: solid;
     border-top-width: 2px;
     width: 100%;
-}
-
-.col {
-    margin-right: 10.5%;
 }
 
 li {
