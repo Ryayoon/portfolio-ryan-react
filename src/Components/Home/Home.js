@@ -1,5 +1,12 @@
 import './Home.css';
 import emoji from '../../assets/images/Emoji.png';
+import newsResult from '../../assets/images/news-app-first.png';
+import ourNews from '../../assets/images/our-news.png';
+import newsApi from '../../assets/images/news-api.png';
+import openWeather from '../../assets/images/open-weather.png';
+import Collapsible from "../Collapsible/Collapsible";
+import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const Home = () => {
 
@@ -43,13 +50,42 @@ const Home = () => {
                         <h2 className="titling">Projects</h2>
                         <br/>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Hack for Happiness Project (News App)</h4></button>
+                            <Collapsible label={<h4 className="proj-text">Hack for Happiness Project (News App)</h4>}>
+                                <div className="text mt-[-30px]">
+                                    <h4>As a part of 'The Simple Team' for Devs Hackathon we had to come up with a solution
+                                        for the theme "Hack for Happiness".</h4>
+                                    <br/>
+                                    <img className="news-image w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
+                                    <br/>
+                                    <p>We brainstormed and researched for what make people 'unhappy' to first see what the
+                                        issues tended to be. From this after careful consideration we had come up with the
+                                        idea of creating a News Web Application where it only displayed positive news about
+                                        our current society which we had implemented this by using AWS Comprehend where it
+                                        uses a mixture of AI and Machine Learning to measure sentiment in order to filter out
+                                        negative news. Our application also displays the current weather conditions with
+                                        suggestions on what fascinating activities users could be doing at that time.</p>
+                                    <br/>
+                                    <img className="news-image w-[250px] md:w-[450px]" src={ourNews} alt="Our-News"/>
+                                    <br/>
+                                    <p>We had Implemented our web application using Angular framework communicating with
+                                        OpenWeather API and AWS using AWS SDK in python language which we then used this
+                                        to communicate with the news API.</p>
+                                    <br/>
+                                    <img className="techStack w-[60px]" src={newsApi} alt="news-api"/>
+                                    <FontAwesomeIcon className="techStack" icon={faPython} color="#050e0b" />
+                                    <FontAwesomeIcon className="techStack" icon={faAngular} color="#f70d0c" />
+                                    <FontAwesomeIcon className="techStack" icon={faAws} color="#ec912d" />
+                                    <img className="techStack w-[60px]" src={openWeather} alt="open-weather"/>
+                                </div>
+                            </Collapsible>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Electric Motor Generation (ENGGEN 299)</h4></button>
+                            <Collapsible label={<h4 className="proj-text">Electric Motor Generation (ENGGEN 299)</h4>}>
+                            </Collapsible>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Visual Cryptography Project (MATLAB)</h4></button>
+                            <Collapsible label={<h4 className="proj-text">Visual Cryptography Project (MATLAB)</h4>}>
+                            </Collapsible>
                         </li>
                     </ul>
                 </div>
