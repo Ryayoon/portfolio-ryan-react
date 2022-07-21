@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-ryan-react/static/css/main.96e83d63.css",
-    "main.js": "/portfolio-ryan-react/static/js/main.5644e160.js",
+    "main.css": "/portfolio-ryan-react/static/css/main.c29f3ee0.css",
+    "main.js": "/portfolio-ryan-react/static/js/main.0e181ae0.js",
     "static/media/our-news.png": "/portfolio-ryan-react/static/media/our-news.375909bc429d1c519dcb.png",
+    "static/media/electric-motor.png": "/portfolio-ryan-react/static/media/electric-motor.9129c425dad877d94671.png",
     "static/media/news-app-first.png": "/portfolio-ryan-react/static/media/news-app-first.60ad91f78fb65af5b061.png",
     "static/media/Emoji.png": "/portfolio-ryan-react/static/media/Emoji.2c3f8c5977fe7ecd6c5d.png",
+    "static/media/encrypting-image.png": "/portfolio-ryan-react/static/media/encrypting-image.88e5d596faae13c617f2.png",
     "static/media/aws-ccp-logo.png": "/portfolio-ryan-react/static/media/aws-ccp-logo.408f180637ecce2fc979.png",
     "static/media/open-weather.png": "/portfolio-ryan-react/static/media/open-weather.d81c7f86b6e8828ab9d0.png",
+    "static/media/vc-patterns.png": "/portfolio-ryan-react/static/media/vc-patterns.7f7009e07a2cbfce59f8.png",
     "static/media/news-api.png": "/portfolio-ryan-react/static/media/news-api.40096b0edd4c6fcfaab1.png",
     "index.html": "/portfolio-ryan-react/index.html",
-    "main.96e83d63.css.map": "/portfolio-ryan-react/static/css/main.96e83d63.css.map",
-    "main.5644e160.js.map": "/portfolio-ryan-react/static/js/main.5644e160.js.map"
+    "main.c29f3ee0.css.map": "/portfolio-ryan-react/static/css/main.c29f3ee0.css.map",
+    "main.0e181ae0.js.map": "/portfolio-ryan-react/static/js/main.0e181ae0.js.map"
   },
   "entrypoints": [
-    "static/css/main.96e83d63.css",
-    "static/js/main.5644e160.js"
+    "static/css/main.c29f3ee0.css",
+    "static/js/main.0e181ae0.js"
   ]
 }
