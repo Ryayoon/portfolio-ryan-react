@@ -4,7 +4,10 @@ import newsResult from '../../assets/images/news-app-first.png';
 import ourNews from '../../assets/images/our-news.png';
 import newsApi from '../../assets/images/news-api.png';
 import openWeather from '../../assets/images/open-weather.png';
+import motor from '../../assets/images/electric-motor.png';
 import Collapsible from "../Collapsible/Collapsible";
+import code from '../../assets/images/encrypting-image.png';
+import patterns from '../../assets/images/vc-patterns.png';
 import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -52,12 +55,11 @@ const Home = () => {
                         <li>
                             <Collapsible label={<h4 className="proj-text">Hack for Happiness Project (News App)</h4>}>
                                 <div className="text mt-[-30px]">
-                                    <h4>As a part of 'The Simple Team' for Devs Hackathon we had to come up with a solution
-                                        for the theme "Hack for Happiness".</h4>
+                                    <h4>Positive News Web App - DEVS Hackathon</h4>
                                     <br/>
-                                    <img className="news-image w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
+                                    <img className="images w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
                                     <br/>
-                                    <p>We brainstormed and researched for what make people 'unhappy' to first see what the
+                                    <p className="explanation">We brainstormed and researched for what make people 'unhappy' to first see what the
                                         issues tended to be. From this after careful consideration we had come up with the
                                         idea of creating a News Web Application where it only displayed positive news about
                                         our current society which we had implemented this by using AWS Comprehend where it
@@ -65,9 +67,9 @@ const Home = () => {
                                         negative news. Our application also displays the current weather conditions with
                                         suggestions on what fascinating activities users could be doing at that time.</p>
                                     <br/>
-                                    <img className="news-image w-[250px] md:w-[450px]" src={ourNews} alt="Our-News"/>
+                                    <img className="images w-[250px] md:w-[450px]" src={ourNews} alt="Our-News"/>
                                     <br/>
-                                    <p>We had Implemented our web application using Angular framework communicating with
+                                    <p className="explanation">We had Implemented our web application using Angular framework communicating with
                                         OpenWeather API and AWS using AWS SDK in python language which we then used this
                                         to communicate with the news API.</p>
                                     <br/>
@@ -81,10 +83,35 @@ const Home = () => {
                         </li>
                         <li>
                             <Collapsible label={<h4 className="proj-text">Electric Motor Generation (ENGGEN 299)</h4>}>
+                                <div className="text mt-[-30px]">
+                                    <h4>Generated an Electric Motor</h4>
+                                    <br/>
+                                    <img className="images w-[150px] md:w-[350px]" src={motor} alt="Electric-Motor"/>
+                                    <br/>
+                                    <p className="explanation">This course allowed me to gain some practical experience
+                                        in implementing a fully functional circuit board which I then had to integrate
+                                        to other working parts to get the motor to spin when the switch was turned on.
+                                        It also allowed me to assure my theoretical knowledge on electricity and
+                                        electromagnetism which was pretty fascinating.</p>
+                                </div>
                             </Collapsible>
                         </li>
                         <li>
                             <Collapsible label={<h4 className="proj-text">Visual Cryptography Project (MATLAB)</h4>}>
+                                <div className="text mt-[-30px]">
+                                    <h4>Visual Cryptography Project</h4>
+                                    <br/>
+                                    <img className="images w-[150px] md:w-[350px]" src={code} alt="MATLAB-code"/>
+                                    <br/>
+                                    <p className="explanation">For this project through Matlab I had to write a code that will encrypt and
+                                        decrypt messages using a technique known as visual cryptography.
+                                        During the project I had learnt that cryptographic algorithms are
+                                        extremely important for allowing messages to be sent securely from one
+                                        party to another so that a random party being able to understand the
+                                        message once intercepted would not be possible.</p>
+                                    <br/>
+                                    <img className="images w-[150px] md:w-[350px]" src={patterns} alt="patterns"/>
+                                </div>
                             </Collapsible>
                         </li>
                     </ul>
