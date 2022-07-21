@@ -22,19 +22,19 @@ const Home = () => {
                         <h2 className="titling">Certifications & Awards</h2>
                         <br/>
                         <li>
-                            <button className="projects"><h4>AWS Cloud Practitioner - Certificate</h4></button>
+                            <button className="projects"><h4 className="proj-text">AWS Cloud Practitioner - Certificate</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
+                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
+                            <button className="projects"><h4 className="proj-text">Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Best Technical Implementation @ Devs Hackathon - Award</h4></button>
+                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Prize for NCEA Level 1 Mathematics - Award</h4></button>
+                            <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>
                         </li>
                     </ul>
                 </div>
@@ -43,13 +43,13 @@ const Home = () => {
                         <h2 className="titling">Projects</h2>
                         <br/>
                         <li>
-                            <button className="projects"><h4>Hack for Happiness Project (News App)</h4></button>
+                            <button className="projects"><h4 className="proj-text">Hack for Happiness Project (News App)</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Electric Motor Generation (ENGGEN 299)</h4></button>
+                            <button className="projects"><h4 className="proj-text">Electric Motor Generation (ENGGEN 299)</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4>Visual Cryptography Project (MATLAB)</h4></button>
+                            <button className="projects"><h4 className="proj-text">Visual Cryptography Project (MATLAB)</h4></button>
                         </li>
                     </ul>
                 </div>

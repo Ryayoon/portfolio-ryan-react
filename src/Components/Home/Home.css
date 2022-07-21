@@ -15,10 +15,15 @@
 
 .text-two {
     padding-top: 3vh;
+
 }
 
 .text-three {
     padding-top: 3vh;
+}
+
+.proj-text {
+    color: #222831;
 }
 
 .projects {
