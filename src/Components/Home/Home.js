@@ -1,15 +1,16 @@
 import './Home.css';
 import emoji from '../../assets/images/Emoji.png';
-import newsResult from '../../assets/images/news-app-first.png';
-import ourNews from '../../assets/images/our-news.png';
-import newsApi from '../../assets/images/news-api.png';
-import openWeather from '../../assets/images/open-weather.png';
-import motor from '../../assets/images/electric-motor.png';
-import Collapsible from "../Collapsible/Collapsible";
-import code from '../../assets/images/encrypting-image.png';
-import patterns from '../../assets/images/vc-patterns.png';
+// import newsResult from '../../assets/images/news-app-first.png';
+// import ourNews from '../../assets/images/our-news.png';
+// import newsApi from '../../assets/images/news-api.png';
+// import openWeather from '../../assets/images/open-weather.png';
+// import motor from '../../assets/images/electric-motor.png';
+// import Collapsible from "../Collapsible/Collapsible";
+// import code from '../../assets/images/encrypting-image.png';
+// import patterns from '../../assets/images/vc-patterns.png';
 import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Collapsible from "../Collapsible/Collapsible";
 
 const Home = () => {
 
@@ -57,7 +58,7 @@ const Home = () => {
                                 <div className="text mt-[-30px]">
                                     <h4>Positive News Web App - DEVS Hackathon</h4>
                                     <br/>
-                                    <img className="images w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
+                                    {/*<img className="images w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>*/}
                                     <br/>
                                     <p className="explanation">We brainstormed and researched for what make people 'unhappy' to first see what the
                                         issues tended to be. From this after careful consideration we had come up with the
@@ -67,17 +68,17 @@ const Home = () => {
                                         negative news. Our application also displays the current weather conditions with
                                         suggestions on what fascinating activities users could be doing at that time.</p>
                                     <br/>
-                                    <img className="images w-[250px] md:w-[450px]" src={ourNews} alt="Our-News"/>
+                                    {/*<img className="images w-[250px] md:w-[450px]" src={ourNews} alt="Our-News"/>*/}
                                     <br/>
                                     <p className="explanation">We had Implemented our web application using Angular framework communicating with
                                         OpenWeather API and AWS using AWS SDK in python language which we then used this
                                         to communicate with the news API.</p>
                                     <br/>
-                                    <img className="techStack w-[60px]" src={newsApi} alt="news-api"/>
+                                    {/*<img className="techStack w-[60px]" src={newsApi} alt="news-api"/>*/}
                                     <FontAwesomeIcon className="techStack" icon={faPython} color="#050e0b" />
                                     <FontAwesomeIcon className="techStack" icon={faAngular} color="#f70d0c" />
                                     <FontAwesomeIcon className="techStack" icon={faAws} color="#ec912d" />
-                                    <img className="techStack w-[60px]" src={openWeather} alt="open-weather"/>
+                                    {/*<img className="techStack w-[60px]" src={openWeather} alt="open-weather"/>*/}
                                 </div>
                             </Collapsible>
                         </li>
@@ -86,7 +87,7 @@ const Home = () => {
                                 <div className="text mt-[-30px]">
                                     <h4>Generated an Electric Motor</h4>
                                     <br/>
-                                    <img className="images w-[150px] md:w-[350px]" src={motor} alt="Electric-Motor"/>
+                                    {/*<img className="images w-[150px] md:w-[350px]" src={motor} alt="Electric-Motor"/>*/}
                                     <br/>
                                     <p className="explanation">This course allowed me to gain some practical experience
                                         in implementing a fully functional circuit board which I then had to integrate
@@ -101,7 +102,7 @@ const Home = () => {
                                 <div className="text mt-[-30px]">
                                     <h4>Visual Cryptography Project</h4>
                                     <br/>
-                                    <img className="images w-[150px] md:w-[350px]" src={code} alt="MATLAB-code"/>
+                                    {/*<img className="images w-[150px] md:w-[350px]" src={code} alt="MATLAB-code"/>*/}
                                     <br/>
                                     <p className="explanation">For this project through Matlab I had to write a code that will encrypt and
                                         decrypt messages using a technique known as visual cryptography.
@@ -110,7 +111,7 @@ const Home = () => {
                                         party to another so that a random party being able to understand the
                                         message once intercepted would not be possible.</p>
                                     <br/>
-                                    <img className="images w-[150px] md:w-[350px]" src={patterns} alt="patterns"/>
+                                    {/*<img className="images w-[150px] md:w-[350px]" src={patterns} alt="patterns"/>*/}
                                 </div>
                             </Collapsible>
                         </li>

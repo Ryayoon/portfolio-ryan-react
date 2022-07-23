@@ -18,37 +18,26 @@ const Contact = () => {
     };
     return (
         <div className="contact">
-            <div className="flex">
-                <h2>Contact</h2>
-                <div className="flex-initial pt-[6vh] ml-[-150px]">
+            <div className="flex justify-between content-center items-center flex-col md:flex-row items-stretch">
+                <div className="flex-initial pt-5 pb-10">
+                    <h1>Contact</h1>
+                    <br/>
                     <div className="submitting">
                         <form ref={form} onSubmit={sendEmail}>
-                            <ul>
-                                <li className='detail-input'>
-                                    <input type="text" name="user_name" placeholder="Name" required/>
-                                </li>
-                                <li className='detail-input'>
-                                    <input type="email" name="user_email" placeholder="Email" required/>
-                                </li>
-                                <li className='detail-input'>
-                                    <input type="text" name="subject" placeholder="Subject" required/>
-                                </li>
-                                <li className='detail-input'>
-                                    <textarea type="message" name="message" placeholder="Message" required/>
-                                </li>
-                                <li className='detail-input text-right'>
-                                    <input type="submit" className='flat-button' value="Send"/>
-                                </li>
-                            </ul>
+                            <input type="text" name="user_name" placeholder="Name" required/>
+                            <input type="email" name="user_email" placeholder="Email" required/>
+                            <input type="text" name="subject" placeholder="Subject" required/>
+                            <textarea type="message" name="message" placeholder="Message" required/>
+                            <div className="w-full text-right">
+                                <input type="submit" className='flat-button' value="Send"/>
+                            </div>
                         </form>
                     </div>
                 </div>
 
-                <div className="flex-initial mt-[4%]">
-                    <div className="vertical-line"/>
-                </div>
+                <div className="line h-[4px] w-full md:w-[5px] md:h-auto"></div>
 
-                <div className="flex-initial mt-[1%] ml-[4%]">
+                <div className="flex-initial md:ml-[4%] md:pt-10 pt-20">
                     <div className="further-details">
                         <h2>Personal Details:</h2>
                         <br/>
@@ -57,7 +46,7 @@ const Contact = () => {
                         <h5>+64 22 062 4057</h5>
                         <br/>
                         <h5>Auckland, New Zealand</h5>
-                        <img className="badge" src={awsBadge} alt="AWS-badge"/>
+                        <img className="badge max-w-[250px]" src={awsBadge} alt="AWS-badge"/>
                     </div>
 
                 </div>
