@@ -38,27 +38,6 @@ const Home = () => {
                 </div>
                 <div className="text-two">
                     <ul className="col-1 mr-[10.5%]">
-                        <h2 className="titling">Certifications & Awards</h2>
-                        <br/>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">AWS Cloud Practitioner - Certificate</h4></button>
-                        </li>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
-                        </li>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
-                        </li>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
-                        </li>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>
-                        </li>
-                    </ul>
-                </div>
-                <div className="text-three">
-                    <ul className="col-2 mr-[10.5%]">
                         <h2 className="titling">Projects</h2>
                         <br/>
                         <li>
@@ -131,6 +110,27 @@ const Home = () => {
                                     <img className="images w-[150px] md:w-[350px]" src={patterns} alt="patterns"/>
                                 </div>
                             </Collapsible>
+                        </li>
+                    </ul>
+                </div>
+                <div className="text-three">
+                    <ul className="col-2 mr-[10.5%]">
+                        <h2 className="titling">Certifications & Awards</h2>
+                        <br/>
+                        <li>
+                            <button className="projects"><h4 className="proj-text">AWS Cloud Practitioner - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4 className="proj-text">Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
+                        </li>
+                        <li>
+                            <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>
                         </li>
                     </ul>
                 </div>

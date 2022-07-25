@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import "./Collapsible.css"
 
 function Collapsible(props) {
-
     const parentRef = useRef();
 
 
