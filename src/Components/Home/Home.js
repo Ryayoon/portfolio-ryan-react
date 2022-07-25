@@ -17,8 +17,9 @@ const Home = () => {
     const[projects, setProjects] = useState([false, false, false]);
 
     const onClickProject = (index) => () => {
-        const temporary = [false, false, false];
-        temporary[index] = true;
+        const temporaryValue = !projects[index];
+        let temporary = [false, false, false];
+        temporary[index] = temporaryValue;
         setProjects(temporary);
     };
 
