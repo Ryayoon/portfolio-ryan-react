@@ -122,13 +122,13 @@ const Home = () => {
                             <button className="projects"><h4 className="proj-text">AWS Cloud Practitioner - Certificate</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
+                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
                         </li>
                         <li>
                             <button className="projects"><h4 className="proj-text">Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
+                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
                         </li>
                         <li>
                             <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>
