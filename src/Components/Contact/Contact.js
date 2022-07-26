@@ -41,9 +41,9 @@ const Contact = () => {
                     <div className="further-details">
                         <h2>Personal Details:</h2>
                         <br/>
-                        <h5>Ryayoon7gzf@gmail.com</h5>
+                        <h5><a href="mailto:Ryayoon7gzf@gmail.com">Ryayoon7gzf@gmail.com</a></h5>
                         <br/>
-                        <h5>+64 22 062 4057</h5>
+                        <h5><a href="tel:+64220624057">+64 22 062 4057</a></h5>
                         <br/>
                         <h5>Auckland, New Zealand</h5>
                         <img className="badge max-w-[250px]" src={awsBadge} alt="AWS-badge"/>
