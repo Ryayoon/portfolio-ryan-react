@@ -10,6 +10,7 @@ import patterns from '../../assets/images/vc-patterns.png';
 import devs from '../../assets/images/Devs-certificate.jpg';
 import Certification from '../../assets/images/aws-certificate.jpg';
 import CompSci from '../../assets/images/compsci-certi.png';
+import ncea from '../../assets/images/NCEA.png';
 import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Collapsible from "../Collapsible/Collapsible";
@@ -17,11 +18,11 @@ import {useState} from "react";
 
 const Home = () => {
 
-    const[projects, setProjects] = useState([false, false, false, false, false, false, false, false]);
+    const[projects, setProjects] = useState([false, false, false, false, false, false, false]);
 
     const onClickProject = (index) => () => {
         const temporaryValue = !projects[index];
-        let temporary = [false, false, false, false, false, false, false, false];
+        let temporary = [false, false, false, false, false, false, false];
         temporary[index] = temporaryValue;
         setProjects(temporary);
     };
@@ -153,7 +154,14 @@ const Home = () => {
                             </Collapsible>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
+                            <Collapsible
+                                isOpen={projects[6]}
+                                onClick={onClickProject(6)}
+                                label="NCEA Level 1 & 2 & 3 Excellence - Certificate">
+                                <div className="text mt-[-30px]">
+                                    <img className="images w-[240px] md:w-[300px] shadow-lg" src={ncea} alt="ncea-certificate"/>
+                                </div>
+                            </Collapsible>
                         </li>
                         <li>
                             <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>

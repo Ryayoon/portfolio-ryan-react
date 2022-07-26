@@ -1,8 +1,23 @@
 import './About.css';
 import {faCss3, faHtml5, faJava, faJsSquare, faPython, faReact, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import Collapsible from "../Collapsible/Collapsible";
+import {useState} from "react";
+import samsung from "../../assets/images/samsung.png";
+import DKSH from "../../assets/images/DKSH.png";
+import myTuition from "../../assets/images/MyTuition.png";
 
 const About = () => {
+
+    const[projects, setProjects] = useState([false, false, false]);
+
+    const onClickProject = (index) => () => {
+        const temporaryValue = !projects[index];
+        let temporary = [false, false, false];
+        temporary[index] = temporaryValue;
+        setProjects(temporary);
+    };
+
     return (
         <div className="about">
             <div className="flex justify-between content-evenly items-center md:items-stretch flex-col-reverse md:flex-row">
@@ -51,13 +66,83 @@ const About = () => {
                     <h2 className="titling">Work Experience</h2>
                     <br/>
                     <li>
-                        <button className="projects"><h4 className="proj-text">Samsung Sales Representative - Millennium Retail</h4></button>
+                        <Collapsible
+                            isOpen={projects[0]}
+                            onClick={onClickProject(0)}
+                            label="Samsung Sales Representative - Millennium Retail">
+                            <div className="text mt-[-60px]">
+                                <img className="images w-[150px] md:w-[350px]" src={samsung} alt="Samsung-logo"/>
+                                <p className="explanation">
+                                    <b>Working with Samsung New Zealand:</b>
+                                    <li>
+                                        - Outstanding Customer service
+                                    </li>
+                                    <li>
+                                        - Ability to do Retail Sales Procedures
+                                    </li>
+                                    <li>
+                                        - Excellent Communication and Interpersonal Skills
+                                    </li>
+                                    <li>
+                                        - High level of technical knowledge and interest in technology
+                                    </li>
+                                    <li>
+                                        - Testing of Mobile/ Electronic Devices
+                                    </li>
+                                    <li>
+                                        - Confidence in Approaching Customers to recommend and Sell Products
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">Field Merchandiser - DKSH</h4></button>
+                        <Collapsible
+                            isOpen={projects[1]}
+                            onClick={onClickProject(1)}
+                            label="Field Merchandiser - DKSH">
+                            <div className="text mt-[-60px]">
+                                <img className="images w-[150px] md:w-[250px]" src={DKSH} alt="DKSH-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <li>
+                                        - Quality of Product displays
+                                    </li>
+                                    <li>
+                                        - Ensuring stock levels are at optimal state and that my products are rotated
+                                        and displayed at correct price
+                                    </li>
+                                    <li>
+                                        - Building and maintaining professional store level relationships
+                                    </li>
+                                    <li>
+                                        - Available to Communicate with Customers Effectively
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">Mathematics Tutor - MyTuition</h4></button>
+                        <Collapsible
+                            isOpen={projects[2]}
+                            onClick={onClickProject(2)}
+                            label="Mathematics Tutor - MyTuition">
+                            <div className="text mt-[-60px]">
+                                <img className="images w-[150px] md:w-[250px]" src={myTuition} alt="MyTuition-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <li>
+                                        - NCEA Mathematics Tutor
+                                    </li>
+                                    <li>
+                                        - Providing and Building excellent one to one relation between Student and Tutor
+                                    </li>
+                                    <li>
+                                        - Great interpretation Skills
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                 </ul>
             </div>
