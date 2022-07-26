@@ -9,7 +9,7 @@ import code from '../../assets/images/encrypting-image.png';
 import patterns from '../../assets/images/vc-patterns.png';
 import devs from '../../assets/images/Devs-certificate.jpg';
 import Certification from '../../assets/images/aws-certificate.jpg';
-import compsci from '../../assets/images/compsci-certi.png';
+import CompSci from '../../assets/images/compsci-certi.png';
 import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Collapsible from "../Collapsible/Collapsible";
@@ -52,7 +52,7 @@ const Home = () => {
                                 <div className="text mt-[-30px]">
                                     <h4>Positive News Web App - DEVS Hackathon</h4>
                                     <br/>
-                                    <img className="images w-[250px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
+                                    <img className="images w-[240px] md:w-[450px]" src={newsResult} alt="implementation-result"/>
                                     <br/>
                                     <p className="explanation">We brainstormed and researched for what make people 'unhappy' to first see what the
                                         issues tended to be. From this after careful consideration we had come up with the
@@ -128,7 +128,7 @@ const Home = () => {
                                 onClick={onClickProject(3)}
                                 label="AWS Cloud Practitioner - Certificate">
                                 <div className="text mt-[-30px]">
-                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={Certification} alt="aws-certificate"/>
+                                    <img className="images w-[240px] md:w-[300px] shadow-lg" src={Certification} alt="aws-certificate"/>
                                 </div>
                             </Collapsible>
                         </li>
@@ -138,7 +138,7 @@ const Home = () => {
                                 onClick={onClickProject(4)}
                                 label="Best Technical Implementation @ Devs Hackathon - Award">
                                 <div className="text mt-[-30px]">
-                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={devs} alt="devs-certificate"/>
+                                    <img className="images w-[240px] md:w-[300px] shadow-lg" src={devs} alt="devs-certificate"/>
                                 </div>
                             </Collapsible>
                         </li>
@@ -148,7 +148,7 @@ const Home = () => {
                                 onClick={onClickProject(5)}
                                 label="Outstanding Achievement (COMPSCI 101) - Certificate">
                                 <div className="text mt-[-30px]">
-                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={compsci} alt="compsci-certificate"/>
+                                    <img className="images w-[240px] md:w-[300px] shadow-lg" src={CompSci} alt="compsci-certificate"/>
                                 </div>
                             </Collapsible>
                         </li>

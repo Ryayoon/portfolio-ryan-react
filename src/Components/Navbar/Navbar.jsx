@@ -6,7 +6,6 @@ function Navbar() {
     const [active, setActive] = useState("nav-menu");
     const [toggleIcon, setToggleIcon] = useState("nav-toggle");
 
-
     const navToggle = () => {
         active === 'nav-menu'
             ? setActive('nav-menu nav-active')
@@ -23,9 +22,9 @@ function Navbar() {
     return (
         <nav className="nav">
             <h1 className="title">Sukju Yoon</h1>
-            <ul className={active}>
+            <ul className={active} onClick={navToggle}>
                 <li className="nav-items">
-                    <NavLink className="nav-link" to="/portfolio-ryan-react/">
+                    <NavLink className="nav-link" to="/portfolio-ryan-react/" >
                         Home
                     </NavLink>
                 </li>
