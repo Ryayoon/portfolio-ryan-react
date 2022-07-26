@@ -7,6 +7,9 @@ import openWeather from '../../assets/images/open-weather.png';
 import motor from '../../assets/images/electric-motor.png';
 import code from '../../assets/images/encrypting-image.png';
 import patterns from '../../assets/images/vc-patterns.png';
+import devs from '../../assets/images/Devs-certificate.jpg';
+import Certification from '../../assets/images/aws-certificate.jpg';
+import compsci from '../../assets/images/compsci-certi.png';
 import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Collapsible from "../Collapsible/Collapsible";
@@ -14,11 +17,11 @@ import {useState} from "react";
 
 const Home = () => {
 
-    const[projects, setProjects] = useState([false, false, false]);
+    const[projects, setProjects] = useState([false, false, false, false, false, false, false, false]);
 
     const onClickProject = (index) => () => {
         const temporaryValue = !projects[index];
-        let temporary = [false, false, false];
+        let temporary = [false, false, false, false, false, false, false, false];
         temporary[index] = temporaryValue;
         setProjects(temporary);
     };
@@ -114,18 +117,40 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
+            <br/>
                 <div className="text-three">
                     <ul className="col-2 mr-[10.5%]">
                         <h2 className="titling">Certifications & Awards</h2>
                         <br/>
                         <li>
-                            <button className="projects"><h4 className="proj-text">AWS Cloud Practitioner - Certificate</h4></button>
+                            <Collapsible
+                                isOpen={projects[3]}
+                                onClick={onClickProject(3)}
+                                label="AWS Cloud Practitioner - Certificate">
+                                <div className="text mt-[-30px]">
+                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={Certification} alt="aws-certificate"/>
+                                </div>
+                            </Collapsible>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Best Technical Implementation @ Devs Hackathon - Award</h4></button>
+                            <Collapsible
+                                isOpen={projects[4]}
+                                onClick={onClickProject(4)}
+                                label="Best Technical Implementation @ Devs Hackathon - Award">
+                                <div className="text mt-[-30px]">
+                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={devs} alt="devs-certificate"/>
+                                </div>
+                            </Collapsible>
                         </li>
                         <li>
-                            <button className="projects"><h4 className="proj-text">Outstanding Achievement (COMPSCI 101) - Certificate</h4></button>
+                            <Collapsible
+                                isOpen={projects[5]}
+                                onClick={onClickProject(5)}
+                                label="Outstanding Achievement (COMPSCI 101) - Certificate">
+                                <div className="text mt-[-30px]">
+                                    <img className="images w-[280px] md:w-[300px] shadow-lg" src={compsci} alt="compsci-certificate"/>
+                                </div>
+                            </Collapsible>
                         </li>
                         <li>
                             <button className="projects"><h4 className="proj-text">NCEA Level 1 & 2 & 3 Excellence - Certificate</h4></button>
