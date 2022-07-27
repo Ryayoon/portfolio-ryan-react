@@ -15,6 +15,7 @@ import {faAngular, faPython, faAws} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Collapsible from "../Collapsible/Collapsible";
 import {useState} from "react";
+import AnimatedPage from "../../Components/Animated/Animated";
 
 const Home = () => {
 
@@ -28,6 +29,7 @@ const Home = () => {
     };
 
     return (
+        <AnimatedPage>
             <div className="home">
                 <div className="flex justify-between content-center items-center flex-col-reverse md:flex-row">
                     <div className="text-one max-w-[300px] z-10">
@@ -169,6 +171,7 @@ const Home = () => {
                     </ul>
                 </div>
             </div>
+        </AnimatedPage>
     );
 }
 

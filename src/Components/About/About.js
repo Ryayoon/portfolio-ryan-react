@@ -6,6 +6,7 @@ import {useState} from "react";
 import samsung from "../../assets/images/samsung.png";
 import DKSH from "../../assets/images/DKSH.png";
 import myTuition from "../../assets/images/MyTuition.png";
+import AnimatedPage from "../../Components/Animated/Animated";
 
 const About = () => {
 
@@ -19,6 +20,7 @@ const About = () => {
     };
 
     return (
+        <AnimatedPage>
         <div className="about">
             <div className="flex justify-between content-evenly items-center md:items-stretch flex-col-reverse md:flex-row">
 
@@ -172,6 +174,7 @@ const About = () => {
                 </ul>
             </div>
         </div>
+        </AnimatedPage>
 
     );
 }

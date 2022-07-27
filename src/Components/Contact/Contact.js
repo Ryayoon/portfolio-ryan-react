@@ -2,6 +2,7 @@ import './Contact.css';
 import React, {useRef} from 'react';
 import emailJs from '@emailjs/browser';
 import awsBadge from '../../assets/images/aws-ccp-logo.png';
+import AnimatedPage from "../../Components/Animated/Animated";
 
 const Contact = () => {
     const form = useRef();
@@ -17,6 +18,7 @@ const Contact = () => {
             });
     };
     return (
+        <AnimatedPage>
         <div className="contact">
             <div className="flex justify-between content-center items-center flex-col md:flex-row items-stretch">
                 <div className="flex-initial pt-5 pb-10">
@@ -52,6 +54,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        </AnimatedPage>
     );
 }
 
