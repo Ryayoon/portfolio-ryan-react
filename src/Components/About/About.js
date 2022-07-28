@@ -223,7 +223,7 @@ const About = () => {
                             label="Badminton Club member(The University of Auckland)">
                             <div className="text mt-[-60px]">
                                 <br/>
-                                <img className="images w-[130px] md:w-[250px]" src={badminton} alt="badminton-logo"/>
+                                <img className="images w-[130px] md:w-[160px]" src={badminton} alt="badminton-logo"/>
                                 <br/>
                                 <p className="explanation">
                                     <b>University of Auckland Badminton Club:</b>
@@ -242,7 +242,7 @@ const About = () => {
                             label="Peer Support Leader (Pakuranga College)">
                             <div className="text mt-[-60px]">
                                 <br/>
-                                <img className="images w-[130px] md:w-[250px]" src={pakuranga} alt="pakuranga-logo"/>
+                                <img className="images w-[130px] md:w-[180px]" src={pakuranga} alt="pakuranga-logo"/>
                                 <br/>
                                 <p className="explanation">
                                     <b>As a Peer Support Leader:</b>
