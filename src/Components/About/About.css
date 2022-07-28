@@ -12,7 +12,7 @@
 
 .paragraph-1 {
     padding: 1vh 1vh 1vh 1.5vh;
-    box-shadow: 1px 1px #888888;
+    box-shadow: 1px 1px 3px #888888;
     background-color: #EEEEEE;
     border-radius: 10px;
 }

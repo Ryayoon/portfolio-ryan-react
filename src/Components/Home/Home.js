@@ -165,9 +165,6 @@ const Home = () => {
                                 </div>
                             </Collapsible>
                         </li>
-                        <li>
-                            <button className="projects"><h4 className="proj-text">Prize for NCEA Level 1 Mathematics - Award</h4></button>
-                        </li>
                     </ul>
                 </div>
             </div>

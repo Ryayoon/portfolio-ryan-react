@@ -2,7 +2,7 @@
     background-color: #EEEEEE;
     border-radius: 10px;
     padding: 1vh 1vh 1vh 2vh;
-    box-shadow: 1px 1px #888888;
+    box-shadow: 1px 1px 3px #888888;
 }
 
 .titling {
@@ -27,6 +27,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    box-shadow: 1px 1px 3px #888888;
 }
 
 .self-emoji {

@@ -24,7 +24,7 @@ const About = () => {
         <div className="about">
             <div className="flex justify-between content-evenly items-center md:items-stretch flex-col-reverse md:flex-row">
 
-                <div className="text-2">
+                <div className="text-2 z-[1]">
                     <h1 className="self-title">About Myself</h1>
                     <br/>
                     <p className="paragraph-1 max-w-[300px] mt-[15px]">Currently, I am a Certified AWS Cloud Practitioner.
@@ -33,7 +33,7 @@ const About = () => {
                         code some Python, C , Java(Object Oriented Programming) and MATLAB.
                     </p>
                 </div>
-                <div className="flex flex-col justify-between -mb-[170px] md:mb-0 -mr-[150px] md:mr-0 -z-[1]">
+                <div className="flex flex-col justify-between -mb-[170px] md:mb-0 -mr-[150px] md:mr-0 ">
 
                     <div className="w-[150px] h-[200px]">
                         <div className="cube-spinner">
