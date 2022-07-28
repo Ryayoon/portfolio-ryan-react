@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-ryan-react/static/css/main.b689558a.css",
-    "main.js": "/portfolio-ryan-react/static/js/main.3dbbc26a.js",
+    "main.css": "/portfolio-ryan-react/static/css/main.bea00321.css",
+    "main.js": "/portfolio-ryan-react/static/js/main.a7c036b0.js",
     "static/media/our-news.png": "/portfolio-ryan-react/static/media/our-news.375909bc429d1c519dcb.png",
     "static/media/electric-motor.png": "/portfolio-ryan-react/static/media/electric-motor.9129c425dad877d94671.png",
     "static/media/pakuranga.png": "/portfolio-ryan-react/static/media/pakuranga.1ccdd94610d3cb6973f7.png",
@@ -21,11 +21,11 @@
     "static/media/news-api.png": "/portfolio-ryan-react/static/media/news-api.40096b0edd4c6fcfaab1.png",
     "static/media/Devs.png": "/portfolio-ryan-react/static/media/Devs.9ab3f5992e253d9e0b1d.png",
     "index.html": "/portfolio-ryan-react/index.html",
-    "main.b689558a.css.map": "/portfolio-ryan-react/static/css/main.b689558a.css.map",
-    "main.3dbbc26a.js.map": "/portfolio-ryan-react/static/js/main.3dbbc26a.js.map"
+    "main.bea00321.css.map": "/portfolio-ryan-react/static/css/main.bea00321.css.map",
+    "main.a7c036b0.js.map": "/portfolio-ryan-react/static/js/main.a7c036b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b689558a.css",
-    "static/js/main.3dbbc26a.js"
+    "static/css/main.bea00321.css",
+    "static/js/main.a7c036b0.js"
   ]
 }
