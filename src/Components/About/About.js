@@ -6,6 +6,11 @@ import {useState} from "react";
 import samsung from "../../assets/images/samsung.png";
 import DKSH from "../../assets/images/DKSH.png";
 import myTuition from "../../assets/images/MyTuition.png";
+import aucklandUni from "../../assets/images/UOA.png";
+import devs from "../../assets/images/Devs.png";
+import wdcc from "../../assets/images/Wdcc.png";
+import badminton from "../../assets/images/badminton.png";
+import pakuranga from "../../assets/images/pakuranga.png";
 import AnimatedPage from "../../Components/Animated/Animated";
 
 const About = () => {
@@ -73,7 +78,7 @@ const About = () => {
                             onClick={onClickProject(0)}
                             label="Samsung Sales Representative - Millennium Retail">
                             <div className="text mt-[-60px]">
-                                <img className="images w-[150px] md:w-[350px]" src={samsung} alt="Samsung-logo"/>
+                                <img className="images w-[190px] md:w-[350px]" src={samsung} alt="Samsung-logo"/>
                                 <p className="explanation">
                                     <b>Working with Samsung New Zealand:</b>
                                     <li>
@@ -107,6 +112,7 @@ const About = () => {
                                 <img className="images w-[150px] md:w-[250px]" src={DKSH} alt="DKSH-logo"/>
                                 <br/>
                                 <p className="explanation">
+                                    <b>As a Field Merchandiser at DKSH:</b>
                                     <li>
                                         - Quality of Product displays
                                     </li>
@@ -133,9 +139,7 @@ const About = () => {
                                 <img className="images w-[150px] md:w-[250px]" src={myTuition} alt="MyTuition-logo"/>
                                 <br/>
                                 <p className="explanation">
-                                    <li>
-                                        - NCEA Mathematics Tutor
-                                    </li>
+                                    <b>As a Mathematics Tutor at MyTuition:</b>
                                     <li>
                                         - Providing and Building excellent one to one relation between Student and Tutor
                                     </li>
@@ -154,22 +158,102 @@ const About = () => {
                     <h2 className="titling">Affiliations</h2>
                     <br/>
                     <li>
-                        <button className="projects"><h4 className="proj-text">PASS Mentor (The University of Auckland)</h4></button>
+                        <Collapsible
+                            isOpen={projects[3]}
+                            onClick={onClickProject(3)}
+                            label="PASS Mentor (The University of Auckland)">
+                            <div className="text mt-[-60px]">
+                                <br/>
+                                <img className="images w-[180px] md:w-[250px]" src={aucklandUni} alt="University of Auckland-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <b>As a UOA PASS Mentor:</b>
+                                    <li>
+                                        My role was to assist students in Part I Engineering at Grafton Hall UOA.
+                                        Papers I offered to support were ENGGEN 140, ELECTENG 101 and ENGGEN 131.
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">DEVS member (Developers Society)</h4></button>
+                        <Collapsible
+                            isOpen={projects[4]}
+                            onClick={onClickProject(4)}
+                            label="DEVS member (Developers Society)">
+                            <div className="text mt-[-60px]">
+                                <br/>
+                                <img className="images w-[180px] md:w-[250px]" src={devs} alt="Devs-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <b>UOA Developers Society:</b>
+                                    <li>
+                                        Developers Society Club (DEVS) is the largest student-run tech organisation
+                                        within The University of Auckland. They collaborate with different tech companies across Oceania
+                                        when hosting unique and valuable events.
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">WDCC member (Web Development & Consulting Club)</h4></button>
+                        <Collapsible
+                            isOpen={projects[5]}
+                            onClick={onClickProject(5)}
+                            label="WDCC member (Web Development & Consulting Club)">
+                            <div className="text mt-[-60px]">
+                                <br/>
+                                <img className="images w-[180px] md:w-[250px]" src={wdcc} alt="Wdcc-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <b>UOA Web Development & Consulting Club:</b>
+                                    <li>
+                                        WDCC (Web Development & Consulting Club) is a non-profit organisation
+                                        founded by two students from the University of Auckland. This club aims to integrate
+                                        university knowledge and real-world industry practices.
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">GDSC member (Google Developer Student Club)</h4></button>
+                        <Collapsible
+                            isOpen={projects[6]}
+                            onClick={onClickProject(6)}
+                            label="Badminton Club member(The University of Auckland)">
+                            <div className="text mt-[-60px]">
+                                <br/>
+                                <img className="images w-[130px] md:w-[250px]" src={badminton} alt="badminton-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <b>University of Auckland Badminton Club:</b>
+                                    <li>
+                                        University of Auckland Badminton Club (UABC) is a club dedicated to bringing
+                                        people interested in badminton together.
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                     <li>
-                        <button className="projects"><h4 className="proj-text">Badminton Club (The University of Auckland)</h4></button>
-                    </li>
-                    <li>
-                        <button className="projects"><h4 className="proj-text">Peer Support Leader (Pakuranga College)</h4></button>
+                        <Collapsible
+                            isOpen={projects[7]}
+                            onClick={onClickProject(7)}
+                            label="Peer Support Leader (Pakuranga College)">
+                            <div className="text mt-[-60px]">
+                                <br/>
+                                <img className="images w-[130px] md:w-[250px]" src={pakuranga} alt="pakuranga-logo"/>
+                                <br/>
+                                <p className="explanation">
+                                    <b>As a Peer Support Leader:</b>
+                                    <li>
+                                        I supported junior students in their transition to College life.
+                                        In the process of this, I had joined them in their junior camp and formed
+                                        group sessions every week to guide them.
+                                    </li>
+                                </p>
+                            </div>
+                        </Collapsible>
                     </li>
                 </ul>
             </div>
