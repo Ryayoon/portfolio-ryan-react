@@ -35,7 +35,10 @@
 
 .text-two {
     padding-top: 3vh;
+}
 
+.text-zero {
+    border-radius: 25px;
 }
 
 .text-three {
