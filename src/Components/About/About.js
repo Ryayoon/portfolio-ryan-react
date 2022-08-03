@@ -3,7 +3,7 @@ import {faCss3, faHtml5, faJava, faJsSquare, faPython, faReact, faAws} from "@fo
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Collapsible from "../Collapsible/Collapsible";
 import {useState} from "react";
-import samsung from "../../assets/images/samsung.png";
+import samsung from "../../assets/images/samsung.svg";
 import DKSH from "../../assets/images/DKSH.png";
 import myTuition from "../../assets/images/MyTuition.png";
 import aucklandUni from "../../assets/images/UOA.png";
@@ -78,7 +78,9 @@ const About = () => {
                             onClick={onClickProject(0)}
                             label="Samsung Sales Representative - Millennium Retail">
                             <div className="text mt-[-60px]">
+                                <br/>
                                 <img className="images w-[190px] md:w-[350px]" src={samsung} alt="Samsung-logo"/>
+                                <br/>
                                 <p className="explanation">
                                     <b>Working with Samsung New Zealand:</b>
                                     <li>
