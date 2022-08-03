@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio-ryan-react/static/css/main.bea00321.css",
-    "main.js": "/portfolio-ryan-react/static/js/main.a7c036b0.js",
+    "main.css": "/portfolio-ryan-react/static/css/main.a4c4adfa.css",
+    "main.js": "/portfolio-ryan-react/static/js/main.7d200eab.js",
     "static/media/our-news.png": "/portfolio-ryan-react/static/media/our-news.375909bc429d1c519dcb.png",
     "static/media/electric-motor.png": "/portfolio-ryan-react/static/media/electric-motor.9129c425dad877d94671.png",
-    "static/media/pakuranga.png": "/portfolio-ryan-react/static/media/pakuranga.1ccdd94610d3cb6973f7.png",
     "static/media/Devs-certificate.jpg": "/portfolio-ryan-react/static/media/Devs-certificate.0dfe1f00272df7a4630f.jpg",
     "static/media/NCEA.png": "/portfolio-ryan-react/static/media/NCEA.f498f0da83a554f67f85.png",
+    "static/media/pakuranga.png": "/portfolio-ryan-react/static/media/pakuranga.86a37b53ecef0a295f7b.png",
     "static/media/aws-certificate.jpg": "/portfolio-ryan-react/static/media/aws-certificate.59a6733015bbb9611661.jpg",
     "static/media/compsci-certi.png": "/portfolio-ryan-react/static/media/compsci-certi.f53d02f5d9a413dc4eef.png",
     "static/media/news-app-first.png": "/portfolio-ryan-react/static/media/news-app-first.60ad91f78fb65af5b061.png",
     "static/media/Emoji.png": "/portfolio-ryan-react/static/media/Emoji.2c3f8c5977fe7ecd6c5d.png",
     "static/media/encrypting-image.png": "/portfolio-ryan-react/static/media/encrypting-image.88e5d596faae13c617f2.png",
     "static/media/aws-ccp-logo.png": "/portfolio-ryan-react/static/media/aws-ccp-logo.408f180637ecce2fc979.png",
-    "static/media/UOA.png": "/portfolio-ryan-react/static/media/UOA.ace26bc36b4c1a2029e3.png",
-    "static/media/badminton.png": "/portfolio-ryan-react/static/media/badminton.35a5b34d1588d1829a14.png",
-    "static/media/DKSH.png": "/portfolio-ryan-react/static/media/DKSH.1ef351b849576c284663.png",
+    "static/media/UOA.png": "/portfolio-ryan-react/static/media/UOA.7eeccde87e87e06df77f.png",
+    "static/media/DKSH.png": "/portfolio-ryan-react/static/media/DKSH.06212334273a6fdaad3c.png",
+    "static/media/MyTuition.png": "/portfolio-ryan-react/static/media/MyTuition.f013e8e01453df753dcf.png",
+    "static/media/badminton.png": "/portfolio-ryan-react/static/media/badminton.cb60fe569b67e3d51e0b.png",
     "static/media/open-weather.png": "/portfolio-ryan-react/static/media/open-weather.d81c7f86b6e8828ab9d0.png",
     "static/media/vc-patterns.png": "/portfolio-ryan-react/static/media/vc-patterns.7f7009e07a2cbfce59f8.png",
     "static/media/news-api.png": "/portfolio-ryan-react/static/media/news-api.40096b0edd4c6fcfaab1.png",
     "static/media/Devs.png": "/portfolio-ryan-react/static/media/Devs.9ab3f5992e253d9e0b1d.png",
     "index.html": "/portfolio-ryan-react/index.html",
-    "main.bea00321.css.map": "/portfolio-ryan-react/static/css/main.bea00321.css.map",
-    "main.a7c036b0.js.map": "/portfolio-ryan-react/static/js/main.a7c036b0.js.map"
+    "main.a4c4adfa.css.map": "/portfolio-ryan-react/static/css/main.a4c4adfa.css.map",
+    "main.7d200eab.js.map": "/portfolio-ryan-react/static/js/main.7d200eab.js.map"
   },
   "entrypoints": [
-    "static/css/main.bea00321.css",
-    "static/js/main.a7c036b0.js"
+    "static/css/main.a4c4adfa.css",
+    "static/js/main.7d200eab.js"
   ]
 }
